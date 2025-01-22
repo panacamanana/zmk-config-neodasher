@@ -45,7 +45,7 @@
         // --------------------------------------------------------------------------------------------------
       bindings = <
         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &bl BL_TOG &trans &trans &trans
+        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &bootloader
         &trans &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &trans &trans  &trans &trans
