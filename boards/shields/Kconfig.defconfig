@@ -1,0 +1,6 @@
+if SHIELD_NICE60
+
+config ZMK_KEYBOARD_NAME
+    default "nice60"
+
+endif
