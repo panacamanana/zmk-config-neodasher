@@ -19,18 +19,18 @@
             // --------------------------------------------------------------------------------------------------------------
 
             bindings = <
-           &kp F1        &kp F3  &kp F5  &kp F7             &kp F9            &kp F11            &kp PSCRN  &kp PAUSE_BREAK
-&kp ESC    &kp F2        &kp F4  &kp F6  &kp F8             &kp F10           &kp F12                       &kp SCROLLLOCK
-&kp GRAVE  &kp N2        &kp N4  &kp N6  &kp N8             &kp N0            &kp EQUAL          &kp INS    &kp PAGE_UP
-&kp N1     &kp N3        &kp N5  &kp N7  &kp N9             &kp MINUS         &kp BACKSPACE                 &kp HOME
-&kp TAB    &kp W         &kp R   &kp Y   &kp I              &kp P             &kp RIGHT_BRACKET  &kp DEL    &kp PAGE_DOWN
-&kp Q      &kp E         &kp T   &kp U   &kp O              &kp LEFT_BRACKET  &kp BACKSLASH                 &kp END
-&kp CLCK   &kp S         &kp F   &kp H   &kp K              &kp SEMICOLON     &kp ENTER
-&kp A      &kp D         &kp G   &kp J   &kp L              &kp SQT
-&kp LSHFT  &kp X         &kp V   &kp N   &kp COMMA          &kp SLASH                                       &kp UP_ARROW
-&kp Z      &kp C         &kp B   &kp M   &kp PERIOD         &kp RIGHT_SHIFT
-&kp LCTRL  &kp LEFT_ALT                  &kp RA(RIGHT_ALT)  &mo 1             &kp LEFT_ARROW                &kp RIGHT
-&kp RIGHT  &kp LEFT_WIN                  &kp SPACE          &kp RIGHT_WIN                                   &kp DOWN_ARROW
+              &kp F1        &kp F3  &kp F5  &kp F7             &kp F9            &kp F11            &kp PSCRN  &kp PAUSE_BREAK
+&kp ESC       &kp F2        &kp F4  &kp F6  &kp F8             &kp F10           &kp F12                       &kp SCROLLLOCK
+&kp GRAVE     &kp N2        &kp N4  &kp N6  &kp N8             &kp N0            &kp EQUAL          &kp INS    &kp PAGE_UP
+&kp N1        &kp N3        &kp N5  &kp N7  &kp N9             &kp MINUS         &kp BACKSPACE                 &kp HOME
+&kp TAB       &kp W         &kp R   &kp Y   &kp I              &kp P             &kp RIGHT_BRACKET  &kp DEL    &kp PAGE_DOWN
+&kp Q         &kp E         &kp T   &kp U   &kp O              &kp LEFT_BRACKET  &kp BACKSLASH                 &kp END
+&kp CLCK      &kp S         &kp F   &kp H   &kp K              &kp SEMICOLON     &kp ENTER
+&kp A         &kp D         &kp G   &kp J   &kp L              &kp SQT
+&kp LSHFT     &kp X         &kp V   &kp N   &kp COMMA          &kp SLASH                                       &kp UP_ARROW
+&kp Z         &kp C         &kp B   &kp M   &kp PERIOD         &kp RIGHT_SHIFT
+&kp LCTRL     &kp LEFT_ALT                  &kp RA(RIGHT_ALT)  &mo 1             &kp LEFT_ARROW                &kp RIGHT
+&kp LEFT_WIN  &kp SPACE                     &kp RIGHT_WIN      &kp RCTRL                                       &kp DOWN_ARROW
             >;
         };
 
