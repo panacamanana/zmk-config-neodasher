@@ -8,7 +8,6 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        // define row-gpios with 12 elements and col-gpios with 8...
     };
 
     default_transform: matrix_transform {
