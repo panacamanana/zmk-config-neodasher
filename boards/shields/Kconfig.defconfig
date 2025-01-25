@@ -1,6 +1,6 @@
-if SHIELD_NICE60
+if SHIELD_MDRTOUCH
 
 config ZMK_KEYBOARD_NAME
-    default "nice60"
+    default "MDR Touch"
 
 endif

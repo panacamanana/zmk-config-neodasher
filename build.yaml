@@ -20,3 +20,4 @@
 ---
 include:
   - board: nice60
+    shield: MDRTouch
