@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: nice_nano_v2
-    shield: mdrtouch
+  - board: nice60
+    shield: nice60
