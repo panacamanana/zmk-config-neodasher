@@ -7,54 +7,9 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // -------------------------------------------------------------------------------------------------------------
-            // | ESC | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F9  | F9  | F10 | F11 | F12 |PSCRN|SLCK| PAUSE_BREAK |
-            // |GRAVE|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |   BSPC   | INS | HOME | PG_UP|
-            // | TAB   |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   \    | DEL | END | PG_DN|
-            // | CAPS   |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |    ENTER    |
-            // |  SHIFT   |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |   SHIFT   | UP  |
-            // |  CTL  |  WIN  |  ALT  |             SPACE                | ALT |  WIN  |RCTRL| LEFT| DOWN|RIGHT|
-            // --------------------------------------------------------------------------------------------------------------
-
+ 
             bindings = <
-              &kp F1        &kp F3  &kp F5  &kp F7             &kp F9            &kp F11            &kp PSCRN  &kp PAUSE_BREAK
-&kp ESC       &kp F2        &kp F4  &kp F6  &kp F8             &kp F10           &kp F12                       &kp SCROLLLOCK
-&kp GRAVE     &kp N2        &kp N4  &kp N6  &kp N8             &kp N0            &kp EQUAL          &kp INS    &kp PAGE_UP
-&kp N1        &kp N3        &kp N5  &kp N7  &kp N9             &kp MINUS         &kp BACKSPACE                 &kp HOME
-&kp TAB       &kp W         &kp R   &kp Y   &kp I              &kp P             &kp RIGHT_BRACKET  &kp DEL    &kp PAGE_DOWN
-&kp Q         &kp E         &kp T   &kp U   &kp O              &kp LEFT_BRACKET  &kp BACKSLASH                 &kp END
-&kp CLCK      &kp S         &kp F   &kp H   &kp K              &kp SEMICOLON     &kp ENTER
-&kp A         &kp D         &kp G   &kp J   &kp L              &kp SQT
-&kp LSHFT     &kp X         &kp V   &kp N   &kp COMMA          &kp SLASH                                       &kp UP_ARROW
-&kp Z         &kp C         &kp B   &kp M   &kp PERIOD         &kp RIGHT_SHIFT
-&kp LCTRL     &kp LEFT_ALT                  &kp RA(RIGHT_ALT)  &mo 1             &kp LEFT_ARROW                &kp RIGHT
-&kp LEFT_WIN  &kp SPACE                     &kp RIGHT_WIN      &kp RCTRL                                       &kp DOWN_ARROW
-            >;
-        };
-
-        raise {
-            // --------------------------------------------------------------------------------------------------
-            // | ESC | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F9  | F9  | F10 | F11 | F12 |PSCRN| SLCK| PAUSE_BREAK |
-            // |GRAVE|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |  BL_TOG  | INS | HOME |PG_UP|
-            // | TAB  |  Q  |  W  |  E  | R  | T  |  Y  |  U  |  I  |  O  |  P  | [ |  ]  |  \   | DEL| END| PG_DN |
-            // | CAPS  |  A  |  S  |  D  | F | G |  H  |  J  |  K  |  L  |  ;  |  '  |     BOOT      |
-            // |  SHIFT   |VOLDN|VOLUP| MUTE|  V  |  B  |  N  |  M  |  ,  |  .  |  /  |    SHIFT  | UP   |
-            // | BT_PRV| BT_NXT|  ALT  |            SPACE               | ALT |  WIN  | CTRL | LEFT | DOWN |BT_CLR|
-            // --------------------------------------------------------------------------------------------------
-
-            bindings = <
-            &bt BT_NXT  &trans  &trans  &trans  &trans       &trans          &trans  &trans
-&bt BT_CLR  &bt BT_PRV  &trans  &trans  &trans  &trans       &bt BT_CLR_ALL          &trans
-&trans      &trans      &trans  &trans  &trans  &trans       &trans          &trans  &trans
-&trans      &trans      &trans  &trans  &trans  &trans       &trans                  &trans
-&trans      &trans      &trans  &trans  &trans  &trans       &trans          &trans  &trans
-&trans      &trans      &trans  &trans  &trans  &trans       &trans                  &trans
-&trans      &trans      &trans  &trans  &trans  &trans       &trans
-&trans      &trans      &trans  &trans  &trans  &bootloader
-&trans      &trans      &trans  &trans  &trans  &trans                               &kp C_VOL_UP
-&trans      &trans      &trans  &trans  &trans  &trans
-&trans      &trans                      &trans  &trans       &trans                  &trans
-&trans      &trans                      &trans  &trans                               &kp C_VOL_DN
+&bt BT_CLR_ALL     &kp N2        &kp N4  &kp N6  &kp N8             &kp N0            &kp EQUAL          &kp INS    &kp N9
             >;
         };
     };
